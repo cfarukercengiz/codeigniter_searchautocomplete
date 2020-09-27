@@ -1,0 +1,44 @@
+body {
+    font-family: "Arial Narrow";
+    background-color: #f7fbfb;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+    width: 1200px;
+    margin-top: 40px;
+}
+
+.container img {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.container small {
+    float: right;
+    color: #c1c3f3;
+}
+
+#search {
+    height: 50px;
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: 0px;
+    font-size: 1.2em;
+    color: #84969a;
+    padding: 5px;
+    margin-bottom: 10px;
+    transition: ease-in-out 0.5s;
+}
+
+#search:focus {
+    box-shadow: 9px 7px 20px -7px rgba(0, 0, 0, 0.34);
+    transition: ease-in-out 0.5s;
+}
+
+#search::placeholder {
+    font-style: italic;
+    font-size: 15px;
+    color: #84969a;
+}
